@@ -10,7 +10,7 @@ def hello_world():
     return 'Hello from Flask!'
     
 @app.route('/details')
-def hello_world():
+def details():
     return url_for('static',filename='style.css')
     
 if __name__ == '__main__':
