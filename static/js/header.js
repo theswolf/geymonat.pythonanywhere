@@ -9,6 +9,7 @@
     render: function() {
       return (
         <Navbar>
+          <div class="container">
           <Navbar.Header>
             <Navbar.Brand>
               <a href="#">React-Bootstrap</a>
@@ -28,6 +29,7 @@
           </NavDropdown>
           </Nav>
           </Navbar.Collapse>
+          </div>
           </Navbar>
       );
     }

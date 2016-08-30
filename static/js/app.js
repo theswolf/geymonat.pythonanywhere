@@ -4,13 +4,15 @@
   if(window.hasOwnProperty(b)) console.log(b);
 }*/
 
-var Header = window.widgets['Header'];
+var Header = widget('Header');
+var Container =  widget('Container');
 
 var Page = React.createClass({
   render: function() {
     return (
       <div >
         <Header />
+        <Container />
       </div>
     );
   }

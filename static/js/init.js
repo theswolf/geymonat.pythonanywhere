@@ -7,3 +7,10 @@
     }
   }
 })(window);
+
+(function(context) {
+  var widget = function(name) {
+    return  context.widgets[name];
+  };
+  context.widget = widget;
+})(window);
